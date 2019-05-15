@@ -12,4 +12,5 @@ group :test do
   gem "rspec"
 end
 
-gem "hashie" #regex search in the rspec wants this to be at the end symbolized by the "$".
+#regex search in the rspec wants hashie to be at the end symbolized by the "$".
+gem "hashie"
